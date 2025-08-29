@@ -9,7 +9,7 @@ return [
     | Telescope Toolbar Enabled
     |--------------------------------------------------------------------------
     |
-    | This options disables the toolbar. Laravel Telescope needs to be
+    | This option disables the toolbar. Laravel Telescope needs to be
     | enabled and Laravel needs to be in Debug mode.
     |
     */
@@ -20,7 +20,7 @@ return [
     | Telescope Auto Replace Requests
     |--------------------------------------------------------------------------
     |
-    | This options automatically replaces the content of the toolbar with new
+    | This option automatically replaces the content of the toolbar with new
     | (AJAX) requests.
     |
     */
@@ -31,9 +31,9 @@ return [
     | Use Telescope Theme ('light mode')
     |--------------------------------------------------------------------------
     |
-    | This option enabled/disables the Light Theme.
+    | This option enables/disables the Light Theme.
     | Laravel Telescope toolbar has two themes; Light and Dark.
-    | By default is uses dark theme.
+    | By default it uses dark theme.
     | Values be: 'auto', true, or false (default)
     |
     */
@@ -44,7 +44,7 @@ return [
     | Open links in new tab
     |--------------------------------------------------------------------------
     |
-    | This option enabled/disables opening telescope links in a new tab.
+    | This option enables/disables opening telescope links in a new tab.
     | By default, clicking on a tab will open telescope in the same tab.
     | Values be: true, false
     |
@@ -66,7 +66,7 @@ return [
      | Middleware of Toolbar
      |--------------------------------------------------------------------------
      |
-     | The middleware that is used for the Telescope API routes. By default
+     | The middleware that is used for the Telescope API routes. By default,
      | it will use the Telescope middleware.
      |
      */
@@ -106,7 +106,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | This options stores Redirect responses in the Session to show
-    | them in in the Requests tab on the next 'real' response.
+    | them in the Requests tab on the next 'real' response.
     |
     */
     'store_redirects' => true,
@@ -116,8 +116,8 @@ return [
     | Enable Dump Watcher
     |--------------------------------------------------------------------------
     |
-    | This options listens for dumps always, without having the tab open.
-    | You can specify the number of seconds it listens or disable with `false`
+    | This option listens for dumps always, without having the tab open.
+    | You can specify the number of seconds it listens or disable with `false`.
     |
     */
     'dump_watcher' => false,
@@ -127,7 +127,7 @@ return [
     | Collectors
     |--------------------------------------------------------------------------
     |
-    | This options configures which collectors are shown
+    | This option configures which collectors are shown.
     |
     */
     'collectors' => [
